@@ -1,6 +1,6 @@
 package neo4j.service;
 
-import com.zjut.entity.Journal;
+import neo4j.entity.Journal;
 
 import java.util.List;
 

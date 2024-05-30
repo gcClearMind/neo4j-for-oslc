@@ -1,7 +1,7 @@
 package neo4j.service;
 
-import com.zjut.entity.Scholar;
-import com.zjut.entity.ScholarAndArticle;
+import neo4j.entity.Scholar;
+import neo4j.entity.ScholarAndArticle;
 
 import java.util.List;
 

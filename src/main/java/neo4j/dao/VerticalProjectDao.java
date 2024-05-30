@@ -1,8 +1,8 @@
 package neo4j.dao;
 
-import com.zjut.entity.SearchCount;
-import com.zjut.entity.SearchCountByYear;
-import com.zjut.entity.VerticalProject;
+import neo4j.entity.SearchCount;
+import neo4j.entity.SearchCountByYear;
+import neo4j.entity.VerticalProject;
 import org.springframework.data.neo4j.annotation.Query;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import org.springframework.stereotype.Repository;

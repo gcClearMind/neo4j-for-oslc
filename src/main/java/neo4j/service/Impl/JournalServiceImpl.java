@@ -1,8 +1,8 @@
 package neo4j.service.Impl;
 
-import com.zjut.dao.JournalDao;
-import com.zjut.entity.Journal;
-import com.zjut.service.JournalService;
+import neo4j.dao.JournalDao;
+import neo4j.entity.Journal;
+import neo4j.service.JournalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

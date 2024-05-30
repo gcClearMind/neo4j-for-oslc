@@ -1,7 +1,7 @@
 package neo4j.dao;
 
-import com.zjut.entity.Scholar;
-import com.zjut.entity.ScholarAndArticle;
+import neo4j.entity.Scholar;
+import neo4j.entity.ScholarAndArticle;
 import org.springframework.data.neo4j.annotation.Query;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import org.springframework.stereotype.Repository;

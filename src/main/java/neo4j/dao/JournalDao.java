@@ -1,6 +1,6 @@
 package neo4j.dao;
 
-import com.zjut.entity.Journal;
+import neo4j.entity.Journal;
 import org.springframework.data.neo4j.annotation.Query;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import org.springframework.stereotype.Repository;

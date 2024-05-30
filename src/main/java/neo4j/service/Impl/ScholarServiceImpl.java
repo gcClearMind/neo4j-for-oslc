@@ -1,9 +1,9 @@
 package neo4j.service.Impl;
 
-import com.zjut.dao.ScholarDao;
-import com.zjut.entity.Scholar;
-import com.zjut.entity.ScholarAndArticle;
-import com.zjut.service.ScholarService;
+import neo4j.dao.ScholarDao;
+import neo4j.entity.Scholar;
+import neo4j.entity.ScholarAndArticle;
+import neo4j.service.ScholarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

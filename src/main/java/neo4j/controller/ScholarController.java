@@ -1,9 +1,9 @@
 package neo4j.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.zjut.entity.Scholar;
-import com.zjut.entity.ScholarAndArticle;
-import com.zjut.service.ScholarService;
+import neo4j.entity.Scholar;
+import neo4j.entity.ScholarAndArticle;
+import neo4j.service.ScholarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

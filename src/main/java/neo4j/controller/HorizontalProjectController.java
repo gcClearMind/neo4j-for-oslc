@@ -1,9 +1,9 @@
 package neo4j.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.zjut.entity.SearchCount;
-import com.zjut.entity.SearchCountByYear;
-import com.zjut.service.HorizontalProjectService;
+import neo4j.entity.SearchCount;
+import neo4j.entity.SearchCountByYear;
+import neo4j.service.HorizontalProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

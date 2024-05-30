@@ -4,38 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff41b49-0f19-4d98-998f-678e3b2bb7cc" name="Changes" comment="" />
+    <list default="true" id="7ff41b49-0f19-4d98-998f-678e3b2bb7cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/HorizontalProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/controller/HorizontalProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/controller/JournalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/ScholarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/controller/ScholarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/VerticalProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/controller/VerticalProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/HorizontalProjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/dao/HorizontalProjectDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/JournalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/dao/JournalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/ScholarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/dao/ScholarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/VerticalProjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/dao/VerticalProjectDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/Scholar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/entity/Scholar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/HorizontalProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/HorizontalProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/HorizontalProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/HorizontalProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/JournalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/JournalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/ScholarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/ScholarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/VerticalProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/VerticalProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/JournalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/JournalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/ScholarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/ScholarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/VerticalProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/VerticalProjectService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="G:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="localRepository" value="C:\Users\Owner\.m2\repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.9.5-bin/apache-maven-3.9.5" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.9.5-bin\apache-maven-3.9.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hAhCfudaVIVsr2BbByZ2BNqSB1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/Users/86198/Documents/GitHub/neo4j-for-oslc/src/main/resources",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Users/86198/Documents/GitHub/neo4j-for-oslc/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Users\86198\Documents\GitHub\neo4j-for-oslc\src\main\resources" />
@@ -43,7 +85,10 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="IdaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="neo4j-for-oslc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="IdaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,6 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1717042680213</updated>
       <workItem from="1717042681375" duration="227000" />
+      <workItem from="1717045639983" duration="527000" />
+      <workItem from="1717046174536" duration="3791000" />
     </task>
     <servers />
   </component>

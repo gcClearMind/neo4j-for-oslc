@@ -1,8 +1,8 @@
 package neo4j.service;
 
-import com.zjut.entity.Article;
-import com.zjut.entity.SearchCount;
-import com.zjut.entity.SearchCountByYear;
+import neo4j.entity.Article;
+import neo4j.entity.SearchCount;
+import neo4j.entity.SearchCountByYear;
 
 import java.util.List;
 

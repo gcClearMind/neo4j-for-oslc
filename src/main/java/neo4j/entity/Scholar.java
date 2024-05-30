@@ -20,18 +20,18 @@ public class Scholar {
     @GeneratedValue
     private Long id;
 
-    @Property("teacher_id")
+    @Property(name = "teacher_id")
     private String teacherId;
     private String name;
     private String sex;
 //    private String organization;
-    @Property("sub_organization")
+    @Property(name = "sub_organization")
     private String subOrganization;
     private String education;
-    @Property("study_speciality")
+    @Property(name = "study_speciality")
     private String studySpeciality;
     private String title;
-    @Property("tutor_type")
+    @Property(name = "tutor_type")
     private String tutorType;
     private String email;
     private String maxPageCount;

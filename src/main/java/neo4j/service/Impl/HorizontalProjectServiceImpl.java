@@ -1,9 +1,9 @@
 package neo4j.service.Impl;
 
-import com.zjut.dao.HorizontalProjectDao;
-import com.zjut.entity.SearchCount;
-import com.zjut.entity.SearchCountByYear;
-import com.zjut.service.HorizontalProjectService;
+import neo4j.dao.HorizontalProjectDao;
+import neo4j.entity.SearchCount;
+import neo4j.entity.SearchCountByYear;
+import neo4j.service.HorizontalProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
