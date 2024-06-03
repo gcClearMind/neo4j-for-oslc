@@ -1,10 +1,15 @@
-package neo4j.tool;
+package IDA.tool;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+/**
+ * 跨域配置
+ * @author Casterx on 2022/2/28.
+ */
 
 @Configuration
 public class CorsConfig implements WebMvcConfigurer {

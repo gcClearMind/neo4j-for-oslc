@@ -1,4 +1,4 @@
-package org.neo4j.tool;
+package IDA.tool;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;

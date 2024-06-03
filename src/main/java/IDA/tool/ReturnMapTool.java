@@ -1,4 +1,4 @@
-package org.neo4j.tool;
+package IDA.tool;
 
 import java.util.ArrayList;
 import java.util.HashMap;
