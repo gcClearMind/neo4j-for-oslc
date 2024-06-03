@@ -5,46 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff41b49-0f19-4d98-998f-678e3b2bb7cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IDA/Neo4jApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IdaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/HorizontalProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/controller/HorizontalProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/controller/JournalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/ScholarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/controller/ScholarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/VerticalProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/controller/VerticalProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/dao/ArticleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/HorizontalProjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/dao/HorizontalProjectDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/JournalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/dao/JournalDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/ScholarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/dao/ScholarDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/VerticalProjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/dao/VerticalProjectDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/entity/Catalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/HorizontalProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/entity/HorizontalProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/Journal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/entity/Journal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/Scholar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/entity/Scholar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/ScholarAndArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/entity/ScholarAndArticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/SearchCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/entity/SearchCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/SearchCountByYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/entity/SearchCountByYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/VerticalProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/entity/VerticalProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/HorizontalProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/HorizontalProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/HorizontalProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/HorizontalProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/JournalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/JournalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/ScholarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/ScholarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/VerticalProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/VerticalProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/JournalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/JournalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/ScholarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/ScholarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/VerticalProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/service/VerticalProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/tool/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/tool/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/tool/ExcelFormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/tool/ExcelFormatUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/tool/ObjectToMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/tool/ObjectToMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/tool/ReturnMapTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDA/tool/ReturnMapTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +38,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\86198\.m2\repository" />
-        <option name="mavenHome" value="G:\Maven\apache-maven-3.9.4" />
-        <option name="userSettingsFile" value="G:\Maven\apache-maven-3.9.4\conf\settings.xml" />
+        <option name="localRepository" value="C:\Users\Owner\.m2\repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.9.5-bin/apache-maven-3.9.5" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.9.5-bin\apache-maven-3.9.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -227,6 +188,7 @@
       <workItem from="1717347351398" duration="1735000" />
       <workItem from="1717349099680" duration="1506000" />
       <workItem from="1717386666345" duration="416000" />
+      <workItem from="1717390518291" duration="53000" />
     </task>
     <servers />
   </component>
