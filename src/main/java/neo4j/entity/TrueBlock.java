@@ -1,18 +1,22 @@
 package neo4j.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.neo4j.ogm.annotation.GeneratedValue;
-import org.neo4j.ogm.annotation.Id;
-import org.neo4j.ogm.annotation.NodeEntity;
+import org.springframework.data.neo4j.core.schema.GeneratedValue;
+import org.springframework.data.neo4j.core.schema.Id;
+import org.springframework.data.neo4j.core.schema.Node;
+
 
 @Data
 @NoArgsConstructor
-@NodeEntity
+@AllArgsConstructor
+@Node("Blocks:Block")
 @ToString
 @JsonIgnoreProperties(value = {"xmi:id","xmi:type"})
+
 public class TrueBlock {
     @Id
     @GeneratedValue
@@ -20,6 +24,9 @@ public class TrueBlock {
 
     private String name;
     private String visibility;
-    private String citeCount;
+    public TrueBlock(String name, String visibility) {
+        this.name = name;
+        this.visibility = visibility;
+    }
 
 }

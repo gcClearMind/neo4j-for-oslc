@@ -16,7 +16,7 @@ public class BlockServiceImpl implements BlockService {
 
     @Override
     @Transactional(readOnly = true)
-    public List<Block> findAllBlock(){
+    public List<String> findAllBlock(){
         return blockDao.findAllBlock();
     }
 
@@ -26,4 +26,9 @@ public class BlockServiceImpl implements BlockService {
         return blockDao.findNearbyBlocks(name);
     }
 
+    @Override
+    @Transactional(readOnly = true)
+    public List<Block> test_for_block(){
+        return blockDao.test_for_block();
+    }
 }

@@ -6,6 +6,52 @@
   <component name="ChangeListManager">
     <list default="true" id="7ff41b49-0f19-4d98-998f-678e3b2bb7cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/Neo4jApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/controller/HorizontalProjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/controller/JournalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/controller/ScholarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/controller/VerticalProjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/dao/ArticleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/dao/HorizontalProjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/dao/JournalDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/dao/ScholarDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/dao/VerticalProjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/entity/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/entity/Catalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/entity/HorizontalProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/entity/Journal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/entity/Scholar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/entity/ScholarAndArticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/entity/SearchCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/entity/SearchCountByYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/entity/VerticalProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/HorizontalProjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/ArticleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/HorizontalProjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/JournalServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/ScholarServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/Impl/VerticalProjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/JournalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/ScholarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/service/VerticalProjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/tool/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/tool/ExcelFormatUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/tool/ObjectToMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDA/tool/ReturnMapTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/controller/BlockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/controller/BlockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/dao/BlockDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/dao/BlockDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/entity/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/entity/TrueBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/entity/TrueBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/BlockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/BlockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/BlockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/service/Impl/BlockServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/tool/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neo4j/tool/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/tool/ExcelFormatUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/tool/ObjectToMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neo4j/tool/ReturnMapTool.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +70,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="MavenRunConfiguration" name="neo4j-for-oslc [install]" />
+    </enabled-run-configurations>
+  </component>
   <component name="KubernetesApiProvider">{
   &quot;contexts&quot;: [
     {
@@ -38,9 +89,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Owner\.m2\repository" />
-        <option name="mavenHome" value="D:/Maven/apache-maven-3.9.5-bin/apache-maven-3.9.5" />
-        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.9.5-bin\apache-maven-3.9.5\conf\settings.xml" />
+        <option name="localRepository" value="C:\Users\86198\.m2\repository" />
+        <option name="mavenHome" value="G:\Maven\apache-maven-3.9.4" />
+        <option name="userSettingsFile" value="G:\Maven\apache-maven-3.9.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -75,7 +126,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Users/86198/Documents/GitHub/neo4j-for-oslc/src/main/java/IDA/entity&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Users/86198/Documents/GitHub/neo4j&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,6 +135,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -189,6 +241,8 @@
       <workItem from="1717349099680" duration="1506000" />
       <workItem from="1717386666345" duration="416000" />
       <workItem from="1717390518291" duration="53000" />
+      <workItem from="1717912902570" duration="15317000" />
+      <workItem from="1718026229164" duration="1262000" />
     </task>
     <servers />
   </component>
