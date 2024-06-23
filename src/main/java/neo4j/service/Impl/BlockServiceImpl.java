@@ -16,7 +16,7 @@ public class BlockServiceImpl implements BlockService {
 
     @Override
     @Transactional(readOnly = true)
-    public List<String> findAllBlock(){
+    public List<Block> findAllBlock(){
         return blockDao.findAllBlock();
     }
 

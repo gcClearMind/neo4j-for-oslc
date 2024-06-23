@@ -19,7 +19,7 @@ public class BlockController {
     @RequestMapping("/getAllBlocks")
     @ResponseBody
     public String getAllBlocks() {
-        List<String> blocks = blockService.findAllBlock();
+        List<Block> blocks = blockService.findAllBlock();
         return JSON.toJSONString(blocks);
     }
     @RequestMapping("/getNearbyBlocks")

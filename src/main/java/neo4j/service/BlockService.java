@@ -5,7 +5,7 @@ import neo4j.entity.Block;
 import java.util.List;
 
 public interface BlockService {
-    List<String> findAllBlock();
+    List<Block> findAllBlock();
 
     List<Block>  findNearbyBlocks(String name);
 
