@@ -7,7 +7,7 @@ import org.eclipse.lyo.oslc4j.core.model.Occurs;
 import org.eclipse.lyo.oslc4j.core.model.Representation;
 import org.springframework.data.neo4j.core.schema.Property;
 
-@OslcNamespace(NsConstant.oslc_ex_namespace)
+@OslcNamespace(NsConstant.oslc_neo4j_namespace)
 @OslcName("BLock")
 @OslcResourceShape(title = "Block Resource Shape", describes = NsConstant.BLOCK_NAMESPACE)
 public class BlockResource extends AbstractResource {
