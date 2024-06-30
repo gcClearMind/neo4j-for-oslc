@@ -12,11 +12,5 @@ spring.devtools:
 server:
   servlet:
     context-path: /neo4j
-  port: 8082
+  port: 8080
 
-rdf:
-  namespaces:
-    block: http://example.org/block#
-    Property: http://example.org/property#
-    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-    xsd: http://www.w3.org/2001/XMLSchema#

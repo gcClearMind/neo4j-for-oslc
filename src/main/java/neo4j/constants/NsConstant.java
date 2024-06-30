@@ -3,7 +3,7 @@ package neo4j.constants;
 public class NsConstant {
 
     public final static String oslc_neo4j_prefix = "oslc_neo4j";
-    public final static String oslc_neo4j_namespace = "localhost:8082/BLOCK-vocab#";
+    public final static String oslc_neo4j_namespace = "localhost:8080/BLOCK-vocab#";
     public final static String oslc_neo4js_prefix = "oslc_neo4js";
     public final static String oslc_neo4js_namespace = "localhost:8082/BLOCK-shape#";
     public final static String OSLC_BLOCK_SHAPE= "http://localhost:8080/BLOCK/ResourceShape";

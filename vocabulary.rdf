@@ -1,0 +1,57 @@
+#RDF Vocabulary document for The OSLC Excel Domain
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix van: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix oslc_neo: <localhost:8080/neo4j/neo4j-vocab#> .
+
+oslc_neo a owl:Ontology ;
+        terms:title "The neo4j of sysml Vocabulary" ;
+        rdfs:label "The neo4j of sysml Vocabulary" ;
+        terms:description "All vocabulary URIs defined in the OSLC Neo4j namespace."^^rdf:XMLLiteral ;
+        van:preferredNamespacePrefix "oslc_neo" ;
+        terms:source <localhost:8080/neo4j/neo4j-vocab#> ;
+        terms:issued "2024-06-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+# ******** Classes ********
+
+oslc_neo:Block
+        a rdfs:Class ;
+        rdfs:isDefinedBy oslc_neo: ;
+        rdfs:label "SysML" ;
+        rdfs:comment "The Neo4j of SysML resource." .
+
+# ******** Properties ********
+
+oslc_neo:id
+        a rdf:Property ;
+        rdfs:isDefinedBy oslc_neo: ;
+        rdfs:label "id" ;
+        rdfs:comment "The identifier of a resource describing a node of neo4j." .
+
+oslc_neo:name
+        a rdf:Property ;
+        rdfs:isDefinedBy oslc_neo: ;
+        rdfs:label "name" ;
+        rdfs:comment "The name of a resource describing a node of neo4j." .
+
+oslc_neo:XmiType
+        a rdf:Property ;
+        rdfs:isDefinedBy oslc_neo: ;
+        rdfs:label "xmi:type" ;
+        rdfs:comment "The xmi:type of a resource describing a node of neo4j." .
+
+oslc_neo:XmiId
+        a rdf:Property ;
+        rdfs:isDefinedBy oslc_neo: ;
+        rdfs:label "xmi:id" ;
+        rdfs:comment "The xmi:id of a resource describing a node of neo4j." .
+
+oslc_neo:visibility
+        a rdf:Property ;
+        rdfs:isDefinedBy oslc_neo: ;
+        rdfs:label "visibility" ;
+        rdfs:comment "The visibility of a resource describing a node of neo4j." .

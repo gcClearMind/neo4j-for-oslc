@@ -22,6 +22,18 @@ public class BlockServiceImpl implements BlockService {
 
     @Override
     @Transactional(readOnly = true)
+    public List<Block> findBlockById(Long id){
+        return blockDao.findBlockById(id);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public List<Block> findBlockByName(String name){
+        return blockDao.findBlockByName(name);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
     public List<Block>  findNearbyBlocks(String name){
         return blockDao.findNearbyBlocks(name);
     }
