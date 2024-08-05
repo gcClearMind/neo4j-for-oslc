@@ -16,6 +16,8 @@ public class Block {
     @Id
     @GeneratedValue
     private Long id;
+    @Property(name = "elementId")
+    private String elementId;
     @Property(name = "name")
     private String name;
     @Property(name = "xmi:type")

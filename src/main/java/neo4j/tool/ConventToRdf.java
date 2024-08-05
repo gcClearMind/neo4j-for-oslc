@@ -32,16 +32,4 @@ public class ConventToRdf {
     private static String escapeRdfString(String str) {
         return str.replace("\\", "\\\\").replace("\"", "\\\"");
     }
-
-    // 示例主函数，展示如何使用blocksToRdf函数
-    public static void main(String[] args) {
-        // 假设这是从数据库检索到的Block实体列表
-        List<Block> blocks = new ArrayList<>();
-        blocks.add(new Block(1L, "Example Block", "uml:Class", "12345", "public"));
-        // ... 添加更多Block实体
-
-        // 转换为RDF格式
-        String rdfData = blocksToRdf(blocks);
-        System.out.println(rdfData);
-    }
 }
