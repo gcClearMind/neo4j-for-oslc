@@ -21,12 +21,12 @@ public interface BlockDao extends Neo4jRepository<Block,Long> {
             " where id(n) = $id" +
             " return n")
     List<Block> findBlockById(@Param(value = "id") Long id);
-    @Query(value = "match(n:`Blocks:Block`{name:$name)" +
+    @Query(value = "match(n:`Blocks:Block`{name:$name})" +
             " return n" +
             " order by n.name")
     List<Block> findBlockByName(@Param(value = "name") String name);
 
-    @Query(value = "match(n:`Blocks:Block`{name:$name)-[:ownedAttribute]->()-[:type]->(m:`Blocks:Block`)" +
+    @Query(value = "match(n:`Blocks:Block`{name:$name})-【*2】-(m:`Blocks:Block`)" +
             " return m" +
             " order by m.name asc")
     List<Block>  findNearbyBlocks(@Param(value = "name") String name);
