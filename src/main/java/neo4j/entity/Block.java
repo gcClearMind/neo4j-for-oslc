@@ -10,7 +10,7 @@ import org.springframework.data.neo4j.core.schema.Property;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Node("Blocks:Block")
+@Node("Block")
 @ToString
 public class Block {
     @Id

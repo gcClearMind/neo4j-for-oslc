@@ -12,9 +12,9 @@ import java.util.List;
 @Repository
 public interface BlockDao extends Neo4jRepository<Block,Long> {
 
-    @Query(value = "match(n:`Blocks:Block`)" +
+    @Query(value = "match(n:Block)" +
             " return n" +
-            " order by n.name asc")
+            "")
     List<Block> findAllBlock();
 
     @Query(value = "match(n:`Blocks:Block`)" +
