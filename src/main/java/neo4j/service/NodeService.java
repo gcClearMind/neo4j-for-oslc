@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface NodeService {
     List<Node> findAllNodes();
+    List<Node> test();
 }

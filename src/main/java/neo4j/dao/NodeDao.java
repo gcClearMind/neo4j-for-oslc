@@ -1,8 +1,9 @@
 package neo4j.dao;
 
 import neo4j.entity.Block;
+import neo4j.entity.Node;
 import neo4j.entity.NodeResult;
-import org.neo4j.driver.types.Node;
+import neo4j.entity.NodeResult2;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import org.springframework.data.neo4j.repository.query.Query;
 import org.springframework.stereotype.Repository;
@@ -17,12 +18,19 @@ public interface NodeDao extends Neo4jRepository<Block,Long> {
 
 //    @Query(value = "MATCH (n) where id(n) = 0 " +
 //            "RETURN id(n) AS id, labels(n) AS labels, keys(n) as keys,properties(n) as  properties")
-//    @Query("MATCH (n) WHERE id(n) = 0 " +
-//        "WITH n, keys(n) AS keys " +
-//        "RETURN id(n) AS id, labels(n) AS labels, keys, " +
-//            "[key IN keys | [key, n[key]]] AS properties")
-@Query("MATCH (n) WHERE id(n) = 0 " +
-        "RETURN n")
-    List<Node> findAllNodes();
+//    @Query("MATCH (n) " +
+//            "    WITH n, keys(n) AS keys " +
+//            "       RETURN id(n) AS id, labels(n) AS labels, keys, " +
+//            "       [key IN keys | [key,n[key]]] AS properties")
+    @Query("MATCH (n) " +
+            "WITH n, keys(n) AS keys " +
+            "RETURN id(n) AS id, labels(n) AS labels, keys, " +
+            "[key IN keys | key + ' &&& ' + n[key]] AS properties")
+    List<NodeResult> findAllNodes();
 
+    @Query("MATCH (n) " +
+            "WITH n, keys(n) AS keys " +
+            "RETURN id(n) AS id, labels(n) AS labels, keys, " +
+            "properties(n) AS properties")
+    List<Node> test();
 }

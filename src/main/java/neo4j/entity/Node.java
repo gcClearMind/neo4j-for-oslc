@@ -27,13 +27,4 @@ public class Node{
     @Property(name = "properties")
     private Map<String, Object> properties;
 
-
-    public void setProperties(Map<String, Object> properties) {
-        this.properties = properties;
-    }
-    public void setProperties(List<List<String>> properties) {
-        for (List<String> property : properties) {
-            this.properties.put(property.get(0).toString(), property.get(1));
-        }
-    }
 }

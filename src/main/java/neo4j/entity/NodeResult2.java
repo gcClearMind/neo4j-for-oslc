@@ -6,16 +6,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.springframework.data.neo4j.core.schema.Property;
-import org.springframework.data.neo4j.core.schema.*;
 
 import java.util.List;
-import java.util.Map;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class NodeResult {
+public class NodeResult2 {
 
     @Property(name = "id")
     private Long id;
@@ -27,5 +25,5 @@ public class NodeResult {
     private List<String> keys;
 
     @Property(name = "properties")
-    private List<String> properties;
+    private List<List<Object>> properties;
 }

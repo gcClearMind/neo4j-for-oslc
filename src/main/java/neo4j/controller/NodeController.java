@@ -20,7 +20,7 @@ public class NodeController {
     @RequestMapping("/getAllNodes")
     public Object getAllNodes() {
         List<Node> nodes = nodeService.findAllNodes();
-        System.out.println(nodes.get(0));
+//        List<Node> nodes = nodeService.test();
         return JSON.toJSON(nodes);
     }
 }
