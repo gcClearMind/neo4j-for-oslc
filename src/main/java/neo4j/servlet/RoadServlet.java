@@ -20,7 +20,7 @@ public class RoadServlet {
     public static Map<String, Vector<String>> findRoads() throws IOException {
 
         // 连接数据库
-        String uri = "bolt://localhost:11005";
+        String uri = "bolt://localhost:7687";
         String user = "neo4j";
         String password = "12345678";
         Driver driver = GraphDatabase.driver(uri, AuthTokens.basic(user, password));
@@ -42,7 +42,7 @@ public class RoadServlet {
         Map<String, Vector<String>> res = new HashMap<>();
         try (Session session = driver.session()) {
             Result result = session.run("match p = (n:`" + start + "`)-[*2.."+ pathLen +"]-(m:`" + end + "`) " +
-                    " WHERE NOT ANY(r IN relationships(p) WHERE type(r) in ['packagedElement'])" +
+                    " WHERE NOT ANY(r IN relationships(p) WHERE type(r) in ['packagedElement', 'relation'])" +
                     " return p as list");//,'client','supplier'
             int id = 0;
             while (result.hasNext()) {

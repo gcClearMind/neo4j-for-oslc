@@ -17,15 +17,18 @@ import java.util.Map;
 @ToString
 public class NodeResult {
 
-    @Property(name = "id")
-    private Long id;
+    @Property(name = "identity")
+    private Long identity;
 
     @Property(name = "labels")
     private List<String> labels;
 
-    @Property(name = "keys")
-    private List<String> keys;
+//    @Property(name = "keys")
+//    private List<String> keys;
 
     @Property(name = "properties")
     private List<String> properties;
+
+    @Property(name = "elementId")
+    private String elementId;
 }

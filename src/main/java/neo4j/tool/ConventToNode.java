@@ -9,10 +9,9 @@ import java.util.*;
 public class ConventToNode {
     public static Node ConventToNode(NodeResult nodeResult) {
         Node node = new Node();
-        System.out.println(nodeResult.getId());
-        node.setId(nodeResult.getId());
+        System.out.println(nodeResult.getIdentity());
+        node.setIdentity(nodeResult.getIdentity());
         node.setLabels(nodeResult.getLabels());
-        node.setKeys(nodeResult.getKeys());
         Map<String, Object> properties = new HashMap<>();
         for(String infos : nodeResult.getProperties()) {
 
@@ -33,9 +32,9 @@ public class ConventToNode {
     public static Node ConventToNode(NodeResult2 nodeResult2) {
         Node node = new Node();
         System.out.println(nodeResult2.getId());
-        node.setId(nodeResult2.getId());
+        node.setIdentity(nodeResult2.getId());
         node.setLabels(nodeResult2.getLabels());
-        node.setKeys(nodeResult2.getKeys());
+//        node.setKeys(nodeResult2.getKeys());
         Map<String, Object> properties = new HashMap<>();
         System.out.println(nodeResult2.getProperties());
         for(List<Object> list : nodeResult2.getProperties()) {
@@ -52,7 +51,7 @@ public class ConventToNode {
 //        node.setId(nodeResult.id());
 
         node.setLabels((List<String>) nodeResult.labels());
-        node.setKeys((List<String>) nodeResult.keys());
+//        node.setKeys((List<String>) nodeResult.keys());
         node.setProperties(nodeResult.asMap());
         return node;
     }
